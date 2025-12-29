@@ -86,3 +86,5 @@ Melhorias de acessibilidade (ARIA, contraste e navegação por teclado)
 ## 📝 Licença  
 Este projeto está licenciado sob a **MIT License**.  
 Sinta-se livre para utilizá-lo para estudos.
+
+<!-- update -->
