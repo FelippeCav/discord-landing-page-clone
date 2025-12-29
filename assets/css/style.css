@@ -1,0 +1,392 @@
+/* FONT LUCKIEST GUY */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+/* FONT OPEN SANS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+
+header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+header p {
+    font-family: 'Open Sans';
+    color: white;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#download-button {
+    margin: 0 20px;
+    width: 90%;
+    height: 54px;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: #23272A;
+}
+
+#download-button:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+#open-button {
+    margin: 15px 20px;
+    width: 90%;
+    height: 52px;
+    background-color: #23272A;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: white;
+}
+
+#open-button:hover {
+    background-color: black;
+}
+
+#top-banner {
+    width: auto;
+    height: 505px;
+    background-image: url(/assets/images/Header\ Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*  MAIN */
+
+#espaco {
+    padding: 20px;
+    width: auto;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+#espaco img {
+    margin: 30px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#espaco h1 {
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #23272A;
+}
+
+#espaco p {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: #23272A;
+}
+
+#encontrar {
+    width: auto;
+    padding: 60px 20px;
+}
+
+#encontrar-bg {
+    background-color: #F6F6F6;
+}
+
+#encontrar img {
+    margin: 30px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#encontrar h1 {
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #23272A;
+}
+
+#encontrar p {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: #23272A;
+}
+
+#poucos {
+    width: auto;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+#poucos img {
+    margin: 30px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#poucos h1 {
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #23272A;
+}
+
+#poucos p {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: #23272A;
+}
+
+#tecnologia {
+    width: auto;
+    padding: 60px 20px;
+    background-color: #F6F6F6;
+}
+
+#tecnologia img {
+    margin: 30px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#tecnologia h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #23272A;
+}
+
+#tecnologia p {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: #23272A;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #23272A;
+    width: auto;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @MEDIA SCREEN 700PX */
+
+@media screen and (min-width: 700px) {
+    header h1 {
+        font-family: 'Luckiest Guy', cursive;
+        color: white;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    header p {
+        font-family: 'Open Sans';
+        color: white;
+        padding: 0 20px;
+        text-align: center;
+        max-width: 757px;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: center;
+        margin: 30px auto;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #download-button {
+        width: 205px;
+        height: 54px;
+        border-radius: 28px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Open Sans';
+        font-size: 1rem;
+        color: #23272A;
+        margin: 0;
+    }
+
+    #download-button:hover {
+        background-color: rgb(234, 234, 234);
+    }
+
+    #open-button {
+        width: 281px;
+        height: 54px;
+        background-color: #23272A;
+        border-radius: 28px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Open Sans';
+        font-size: 1rem;
+        color: white;
+        margin: 0;
+    }
+
+    #open-button:hover {
+        background-color: black;
+    }
+
+    #top-banner {
+        width: auto;
+        height: 600px;
+        background-image: url(/assets/images/Header\ Background\ \(1\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* MAIN */
+
+    main {
+        margin: 0 auto;
+
+    }
+
+    #espaco {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #espaco-img {
+        flex: 1;
+        width: 607px;
+        max-width: none;
+    }
+
+    #espaco-texto {
+        max-width: 420px;
+        flex: 1;
+    }
+
+    #espaco h1 {
+        font-family: 'Open Sans';
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #23272A;
+    }
+
+    #espaco p {
+        font-family: 'Open Sans';
+        font-size: 1rem;
+        color: #23272A;
+    }
+
+    #encontrar {
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #encontrar-bg {
+        background-color: #F6F6F6;
+        width: 100%;
+    }
+
+    #encontrar-img {
+        flex: 1;
+        width: 607px;
+        max-width: none;
+    }
+
+    #encontrar-texto {
+        max-width: 420px;
+        flex: 1;
+    }
+
+    #encontrar h1 {
+        font-family: 'Open Sans';
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #23272A;
+    }
+
+    #encontrar p {
+        font-family: 'Open Sans';
+        font-size: 1rem;
+        color: #23272A;
+    }
+
+    #poucos {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #poucos-img {
+        flex: 1;
+        width: 607px;
+        max-width: none;
+    }
+
+    #poucos-texto {
+        max-width: 420px;
+        flex: 1;
+    }
+
+    #poucos h1 {
+        font-family: 'Open Sans';
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #23272A;
+    }
+
+    #poucos p {
+        font-family: 'Open Sans';
+        font-size: 1rem;
+        color: #23272A;
+    }
+
+    #tecnologia-texto {
+        text-align: center;
+        font-size: 2.5rem;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #tecnologia-img img {
+        width: 607px;
+        max-width: none;
+        margin: 0 auto;
+    }
+}
